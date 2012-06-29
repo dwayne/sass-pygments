@@ -35,7 +35,7 @@ And on the ruby side of things, we need:
 
 Once the requirements are met, execute the instructions below and you should be all setup to process your own Pygment style files.
 
-	$ git clone git://github.com/dwayne/sass-pygments.git
+	$ git clone https://github.com/dwayne/sass-pygments.git
 	$ virtualenv sass-pygments
 
 	$ cd sass-pygments # and accept the .rvmrc file
