@@ -1,0 +1,69 @@
+.syntax .hll { background-color: #ffffcc }
+.syntax  { background: #eee8d5; color: #586e75 }
+.syntax .c { color: #93a1a1; font-style: italic } /* Comment */
+.syntax .g { color: #d33682 } /* Generic */
+.syntax .k { color: #859900 } /* Keyword */
+.syntax .l { color: #2aa198 } /* Literal */
+.syntax .n { color: #268bd2 } /* Name */
+.syntax .ch { color: #93a1a1; font-style: italic } /* Comment.Hashbang */
+.syntax .cm { color: #93a1a1; font-style: italic } /* Comment.Multiline */
+.syntax .cp { color: #93a1a1; font-style: italic } /* Comment.Preproc */
+.syntax .cpf { color: #93a1a1; font-style: italic } /* Comment.PreprocFile */
+.syntax .c1 { color: #93a1a1; font-style: italic } /* Comment.Single */
+.syntax .cs { color: #93a1a1; font-style: italic } /* Comment.Special */
+.syntax .gd { color: #d33682 } /* Generic.Deleted */
+.syntax .ge { color: #d33682 } /* Generic.Emph */
+.syntax .gr { color: #d33682 } /* Generic.Error */
+.syntax .gh { color: #d33682 } /* Generic.Heading */
+.syntax .gi { color: #d33682 } /* Generic.Inserted */
+.syntax .go { color: #d33682 } /* Generic.Output */
+.syntax .gp { color: #d33682 } /* Generic.Prompt */
+.syntax .gs { color: #d33682 } /* Generic.Strong */
+.syntax .gu { color: #d33682 } /* Generic.Subheading */
+.syntax .gt { color: #d33682 } /* Generic.Traceback */
+.syntax .kc { color: #859900; font-weight: bold } /* Keyword.Constant */
+.syntax .kd { color: #859900 } /* Keyword.Declaration */
+.syntax .kn { color: #dc322f; font-weight: bold } /* Keyword.Namespace */
+.syntax .kp { color: #859900 } /* Keyword.Pseudo */
+.syntax .kr { color: #859900 } /* Keyword.Reserved */
+.syntax .kt { color: #859900; font-weight: bold } /* Keyword.Type */
+.syntax .ld { color: #2aa198 } /* Literal.Date */
+.syntax .m { color: #2aa198; font-weight: bold } /* Literal.Number */
+.syntax .s { color: #2aa198 } /* Literal.String */
+.syntax .na { color: #268bd2 } /* Name.Attribute */
+.syntax .nb { color: #cb4b16 } /* Name.Builtin */
+.syntax .nc { color: #cb4b16 } /* Name.Class */
+.syntax .no { color: #268bd2 } /* Name.Constant */
+.syntax .nd { color: #268bd2 } /* Name.Decorator */
+.syntax .ni { color: #268bd2 } /* Name.Entity */
+.syntax .ne { color: #268bd2 } /* Name.Exception */
+.syntax .nf { color: #268bd2 } /* Name.Function */
+.syntax .nl { color: #268bd2 } /* Name.Label */
+.syntax .nn { color: #268bd2 } /* Name.Namespace */
+.syntax .nx { color: #268bd2 } /* Name.Other */
+.syntax .py { color: #268bd2 } /* Name.Property */
+.syntax .nt { color: #268bd2; font-weight: bold } /* Name.Tag */
+.syntax .nv { color: #268bd2 } /* Name.Variable */
+.syntax .ow { color: #859900 } /* Operator.Word */
+.syntax .w { color: #586e75 } /* Text.Whitespace */
+.syntax .mb { color: #2aa198; font-weight: bold } /* Literal.Number.Bin */
+.syntax .mf { color: #2aa198; font-weight: bold } /* Literal.Number.Float */
+.syntax .mh { color: #2aa198; font-weight: bold } /* Literal.Number.Hex */
+.syntax .mi { color: #2aa198; font-weight: bold } /* Literal.Number.Integer */
+.syntax .mo { color: #2aa198; font-weight: bold } /* Literal.Number.Oct */
+.syntax .sb { color: #2aa198 } /* Literal.String.Backtick */
+.syntax .sc { color: #2aa198 } /* Literal.String.Char */
+.syntax .sd { color: #2aa198 } /* Literal.String.Doc */
+.syntax .s2 { color: #2aa198 } /* Literal.String.Double */
+.syntax .se { color: #2aa198 } /* Literal.String.Escape */
+.syntax .sh { color: #2aa198 } /* Literal.String.Heredoc */
+.syntax .si { color: #2aa198 } /* Literal.String.Interpol */
+.syntax .sx { color: #2aa198 } /* Literal.String.Other */
+.syntax .sr { color: #2aa198 } /* Literal.String.Regex */
+.syntax .s1 { color: #2aa198 } /* Literal.String.Single */
+.syntax .ss { color: #2aa198 } /* Literal.String.Symbol */
+.syntax .bp { color: #cb4b16 } /* Name.Builtin.Pseudo */
+.syntax .vc { color: #268bd2 } /* Name.Variable.Class */
+.syntax .vg { color: #268bd2 } /* Name.Variable.Global */
+.syntax .vi { color: #268bd2 } /* Name.Variable.Instance */
+.syntax .il { color: #2aa198; font-weight: bold } /* Literal.Number.Integer.Long */

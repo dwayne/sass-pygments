@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Convert all Pygments builtin styles as well as the extra pygments-solarized styles
+
+cd "$(dirname ${BASH_SOURCE[0]})"
+./show-builtins | xargs -n 1 ./convert
+./convert solarized
+./convert solarized_dark
+./convert solarized_dark256

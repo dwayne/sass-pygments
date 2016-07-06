@@ -1,0 +1,2 @@
+Pygments==2.1.3
+-e git+https://github.com/john2x/solarized-pygment.git@2135e9376b22af9c4b1ab39ba89b6f8080641e83#egg=pygments_solarized

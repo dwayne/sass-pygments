@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Show Pygments builtin styles
+
+cd "$(dirname ${BASH_SOURCE[0]})"
+ls -1 --hide=*.pyc --hide=__init__.py ../.env/lib/python2.7/site-packages/pygments/styles | sed -e 's/\.py$//'

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Convert a single style given its style name
+
+set -e
+
+export STYLES_DIR="${STYLES_DIR=../styles}"
+cd "$(dirname ${BASH_SOURCE[0]})"
+mkdir -p $STYLES_DIR/{css,scss}
+pygmentize -f html -S "$1" -a ".syntax" > $STYLES_DIR/css/$1.css
+pygmentize -f html -S "$1" -a ".syntax" | bundle exec sass-convert -s -F css -T scss > $STYLES_DIR/scss/$1.scss

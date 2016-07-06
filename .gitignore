@@ -1,4 +1,3 @@
-/bin
-/include
-/lib
-/local
+.env
+.ruby-version
+Gemfile.lock
